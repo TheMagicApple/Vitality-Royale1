@@ -268,5 +268,8 @@ for (var food = 0; food<selections.length; food++)
   }
   
 }
+if(hasBurger==false && hasButter==false && hasMeat==false){
+  document.getElementById("FoodRecom").innerHTML += "";
+} 
 
 
